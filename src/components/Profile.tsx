@@ -7,13 +7,7 @@ export default async function Profile() {
 
   return (
     <>
-      <p>{session?.user?.name}</p>
-      {session?.user?.image && (<Image
-        src={session?.user?.image as string}
-        alt={"user image"}
-        width={50}
-        height={50}
-      />)}
+      <nav>asdasd</nav>
     </>
   );
 }
